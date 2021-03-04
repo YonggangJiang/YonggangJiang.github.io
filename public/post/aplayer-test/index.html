@@ -22,22 +22,25 @@
 <meta name="theme-color" content="#ffffff" />
 
 
-<title>404 Page not found - Hugo Theme Fuji</title>
+<title>In-post APlayer Test - Hugo Theme Fuji</title>
 
 
 <meta name="author" content="DSRKafuU" />
 
 
-<meta name="description" content="A minimal Hugo theme with nice theme color." />
+<meta name="description" content="In-post APlayer testpage of Hugo theme Fuji" />
 
 
+<meta name="keywords" content="test, aplayer" />
 
-<meta property="og:title" content="404 Page not found" />
-<meta name="twitter:title" content="404 Page not found" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="jyg94.github.io/404.html" /><meta property="og:image" content="/img/og.png" />
+
+<meta property="og:title" content="In-post APlayer Test" />
+<meta name="twitter:title" content="In-post APlayer Test" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="jyg94.github.io/post/aplayer-test/" /><meta property="og:description" content="In-post APlayer testpage of Hugo theme Fuji" />
+<meta name="twitter:description" content="In-post APlayer testpage of Hugo theme Fuji" /><meta property="og:image" content="/img/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="/img/og.png" />
+<meta name="twitter:image" content="/img/og.png" /><meta property="article:published_time" content="2021-01-10T00:00:00+08:00" /><meta property="article:modified_time" content="2021-01-10T00:00:00+08:00" />
 
 
 <style>
@@ -56,6 +59,8 @@
 
 <link rel="stylesheet" href="/jyg94.github.io/assets/css/fuji.min.css" />
 
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" />
 
 
 
@@ -92,9 +97,55 @@
             
             <div class="col-12 col-md-9 float-left content">
                 
-<div class="404-not-found" style="font-size: 2rem; padding-top: 1.5rem;">
-    <span>404 NOT FOUND</span>
+<article>
+    
+    <h2 class="post-item post-title">
+        <a href="jyg94.github.io/post/aplayer-test/">In-post APlayer Test</a>
+    </h2>
+    <div class="post-item post-meta">
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2021-01-10</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;40 words</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="/jyg94.github.io/tags/test">test</a>&nbsp;<a href="/jyg94.github.io/tags/aplayer">aplayer</a>&nbsp;</span>
+
+    </div>
+    
+    <div class="post-content markdown-body">
+        <div class="post-player-wrapper">
+  <div
+    class="post-aplayer"
+    data-urls="/theme/hugo-theme-fuji/aplayer/berlin.mp3"
+    data-names="Berlin"
+    data-artists="Crowander"
+    data-covers="/theme/hugo-theme-fuji/aplayer/crowander.jpg"
+  ></div>
 </div>
+<p>This post is for in-post APlayer test, above is previous post-player.</p>
+<p>Music files are all downloaded from <a href="https://freemusicarchive.org" target="_blank">Free Music Archive</a>.</p>
+<h2 id="single-file">Single file</h2>
+<div class="post-player-wrapper">
+  <div
+    class="post-aplayer"
+    data-urls="/theme/hugo-theme-fuji/aplayer/fluid.mp3"
+    data-names="Fluid"
+    data-artists="Crowander"
+    data-covers="/theme/hugo-theme-fuji/aplayer/crowander.jpg"
+  ></div>
+</div>
+<h2 id="multiple-files">Multiple files</h2>
+<p>You can open the playlist to check other musics.</p>
+<div class="post-player-wrapper">
+  <div
+    class="post-aplayer"
+    data-urls="/theme/hugo-theme-fuji/aplayer/berlin.mp3,%20/theme/hugo-theme-fuji/aplayer/fluid.mp3,%20/theme/hugo-theme-fuji/aplayer/morning.mp3"
+    data-names="Berlin, Fluid, Morning"
+    data-artists="Crowander, Crowander, Crowander"
+    data-covers="/theme/hugo-theme-fuji/aplayer/crowander.jpg, /theme/hugo-theme-fuji/aplayer/crowander.jpg, /theme/hugo-theme-fuji/aplayer/crowander.jpg"
+  ></div>
+</div>
+<p>Spaces between multiple items can be omited.</p>
+    </div>
+</article>
+
+
+
 
             </div>
             <aside class="col-12 col-md-3 float-left sidebar">
@@ -191,9 +242,13 @@
             
         </div>
     </div>
-    
-    
-    
+    <div class="sidebar-item sidebar-toc">
+        <h3>TOC</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#single-file">Single file</a></li>
+    <li><a href="#multiple-files">Multiple files</a></li>
+  </ul>
+</nav></div>
 </aside>
         </div>
         <div class="btn">
@@ -304,6 +359,18 @@
     </div>
     
     
+    
+    <div class="sidebar-item sidebar-toc">
+        <h3>TOC</h3>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#single-file">Single file</a></li>
+    <li><a href="#multiple-files">Multiple files</a></li>
+  </ul>
+</nav>
+    </div>
+    
+    
   </div>
 </aside>
     </main>
@@ -333,6 +400,53 @@
 
 <script defer src="/jyg94.github.io/assets/js/fuji.min.js"></script>
 
+
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<script>
+  
+  var pContainers = document.querySelectorAll('.content article .post-aplayer');
+  if (pContainers && pContainers.length > 0) {
+    pContainers.forEach(function (container) {
+      var attrs = ['urls', 'names', 'artists', 'covers'];
+      attrs = attrs.map(function (attr) {
+        var arr = container.getAttribute('data-' + attr).replace(/( |%20)/ig, '').split(',');
+        if (arr.length > 0){
+          return arr.map(function (val) {
+            return String(val).trim();
+          });
+        } else {
+          return attr;
+        }
+      });
+      var audio = [];
+      for (var i = 0; i < attrs[0].length; i++) {
+        var a = {
+          name: attrs[1][i],
+          url: attrs[0][i],
+        };
+        (typeof attrs[2] !== 'string') && (a.artist = attrs[2][i]);
+        (typeof attrs[3] !== 'string') && (a.cover = attrs[3][i]);
+        audio.push(a);
+      }
+      new APlayer({
+        container: container,
+        theme: '#8f82bc',
+        volume: 0.1,
+        listFolded: true,
+        audio: audio
+      });
+    });
+  }
+  
+  
+  document.addEventListener('DOMContentLoaded', function () {
+    var issueTocEle = document.querySelector('.sidebar-toc');
+    if (issueTocEle) {
+      var newTocEle = issueTocEle.cloneNode(true);
+      issueTocEle.parentNode.replaceChild(newTocEle, issueTocEle);
+    }
+  });
+</script>
 
 </body>
 

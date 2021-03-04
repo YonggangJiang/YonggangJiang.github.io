@@ -22,22 +22,25 @@
 <meta name="theme-color" content="#ffffff" />
 
 
-<title>404 Page not found - Hugo Theme Fuji</title>
+<title>Emoji Support - Hugo Theme Fuji</title>
 
 
 <meta name="author" content="DSRKafuU" />
 
 
-<meta name="description" content="A minimal Hugo theme with nice theme color." />
+<meta name="description" content="Guide to emoji usage in Hugo" />
 
 
+<meta name="keywords" content="emoji" />
 
-<meta property="og:title" content="404 Page not found" />
-<meta name="twitter:title" content="404 Page not found" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="jyg94.github.io/404.html" /><meta property="og:image" content="/img/og.png" />
+
+<meta property="og:title" content="Emoji Support" />
+<meta name="twitter:title" content="Emoji Support" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="jyg94.github.io/post/emoji-support/" /><meta property="og:description" content="Guide to emoji usage in Hugo" />
+<meta name="twitter:description" content="Guide to emoji usage in Hugo" /><meta property="og:image" content="/img/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="/img/og.png" />
+<meta name="twitter:image" content="/img/og.png" /><meta property="article:published_time" content="2019-03-05T00:00:00+00:00" /><meta property="article:modified_time" content="2019-03-05T00:00:00+00:00" />
 
 
 <style>
@@ -92,9 +95,40 @@
             
             <div class="col-12 col-md-9 float-left content">
                 
-<div class="404-not-found" style="font-size: 2rem; padding-top: 1.5rem;">
-    <span>404 NOT FOUND</span>
+<article>
+    
+    <h2 class="post-item post-title">
+        <a href="jyg94.github.io/post/emoji-support/">Emoji Support</a>
+    </h2>
+    <div class="post-item post-meta">
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2019-03-05</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;138 words</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="/jyg94.github.io/tags/emoji">emoji</a>&nbsp;</span>
+
+    </div>
+    
+    <div class="post-content markdown-body">
+        <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+<p>The <a href="https://gohugo.io/functions/emojify/" target="_blank"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes" target="_blank">Inline Shortcodes</a>.</p>
+<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/" target="_blank">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
+<p><code>:s ee_no_evil:[Remove the space]</code> 🙈 <code>:h ear_no_evil:[Remove the space]</code> 🙉 <code>:s peak_no_evil:[Remove the space]</code> 🙊</p>
+<p>The <a href="http://www.emoji-cheat-sheet.com/" target="_blank">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
+<hr>
+<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
+<pre><code class="language-css">.emoji {
+    font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+}
+</code></pre>
+    </div>
+</article>
+
+
+<div class="license markdown-body">
+    <blockquote>
+        <p>Unless otherwise noted, the content of this site is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+               target="_blank">CC BY-NC-SA 4.0</a>.</p>
+    </blockquote>
 </div>
+
+
 
             </div>
             <aside class="col-12 col-md-3 float-left sidebar">
@@ -191,8 +225,6 @@
             
         </div>
     </div>
-    
-    
     
 </aside>
         </div>
@@ -302,6 +334,8 @@
             
         </div>
     </div>
+    
+    
     
     
   </div>
