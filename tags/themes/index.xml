@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yonggang Jiang</title>
-    <link>https://example.com/</link>
-    <description>Recent content on Yonggang Jiang</description>
+    <title>themes on Yonggang Jiang</title>
+    <link>https://example.com/tags/themes/</link>
+    <description>Recent content in themes on Yonggang Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/themes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a New Theme</title>
       <link>https://example.com/posts/creating-a-new-theme/</link>
