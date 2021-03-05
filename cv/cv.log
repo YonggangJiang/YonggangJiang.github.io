@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.10)  5 MAR 2021 14:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.10)  5 MAR 2021 15:45
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -242,45 +242,54 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks18
 
 (D:\tools\MiKTex\tex/latex/geometry\geometry.cfg))
+(D:\tools\MiKTex\tex/latex/latex-tools\enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks19
+)
+(D:\tools\MiKTex\tex/latex/changepage\changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count269
+\cp@tempcnt=\count270
+)
 (D:\tools\MiKTex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count269
+\l__color_backend_stack_int=\count271
 \l__pdf_internal_box=\box49
-)
-No file cv.aux.
+) (cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+
 (D:\tools\MiKTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count270
+\scratchcounter=\count272
 \scratchdimen=\dimen166
 \scratchbox=\box50
-\nofMPsegments=\count271
-\nofMParguments=\count272
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count273
+\nofMPsegments=\count273
+\nofMParguments=\count274
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count275
 \MPscratchDim=\dimen167
-\MPnumerator=\count274
-\makeMPintoPDFobject=\count275
-\everyMPtoPDFconversion=\toks20
+\MPnumerator=\count276
+\makeMPintoPDFobject=\count277
+\everyMPtoPDFconversion=\toks21
 )
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring OFF on input line 16.
  (D:\tools\MiKTex\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -290,11 +299,13 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (D:\tools\MiKTex\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count276
+\c@section@level=\count278
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
+ (cv.out)
+(cv.out)
 \@outlinefile=\write3
 \openout3 = `cv.out'.
 
@@ -334,61 +345,54 @@ LaTeX Info: Redefining \nameref on input line 14.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 14.
+(Font)              <10.95> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 16.
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 14--14
+Overfull \hbox (30.0pt too wide) in paragraph at lines 16--16
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--67
+
+ []
+
+
+Overfull \hbox (9.20789pt too wide) in paragraph at lines 70--76
+[][] 
  []
 
 [1
 
-{C:/Users/walydna/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 78--84
-
- []
-
-
-Overfull \hbox (9.20789pt too wide) in paragraph at lines 87--93
-[][] 
- []
-
-[2] (cv.aux)
-
-Package rerunfilecheck Warning: File `cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+{C:/Users/walydna/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (cv.aux)
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 6352 strings out of 479618
- 93768 string characters out of 2878708
- 413093 words of memory out of 3000000
- 23441 multiletter control sequences out of 15000+200000
- 408762 words of font info for 44 fonts, out of 3000000 for 9000
+ 6424 strings out of 479618
+ 94927 string characters out of 2878708
+ 413415 words of memory out of 3000000
+ 23502 multiletter control sequences out of 15000+200000
+ 408415 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,7n,88p,617b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 83i,7n,88p,617b,314s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\walydna\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 ti1095.pk><D:/tools/MiKTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/tools/
 MiKTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/tools/MiKTex/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb><D:/tools/MiKTex/fonts/type1/public/amsfonts/cm/cmr
 12.pfb><D:/tools/MiKTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/tools/MiK
-Tex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/tools/MiKTex/fonts/type1/publ
-ic/amsfonts/cm/cmti12.pfb>
-Output written on cv.pdf (2 pages, 116582 bytes).
+Tex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on cv.pdf (1 page, 97341 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 45 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
