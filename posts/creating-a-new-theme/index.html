@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Yonggang Jiang" />
     <meta name="description" content="" />
-    <link rel="stylesheet" href="https://jyg94.github.io/css/main.min.68e582a4d4ed824d6b7e3b5b37cae47eb3779bd631046379d0e68b38230cc3e2.css" />
+    <link rel="stylesheet" href="https://jyg94.github.io/css/main.min.ab0d0b069b6a75418e5f120313aff66ff4b35e94e1537569a5f90724b2c1410a.css" />
 
     
     <meta name="twitter:card" content="summary"/>
@@ -38,36 +38,12 @@ We&rsquo;ll start with creating a new site with a very basic template." />
     </header>
     <main class="app-container">
       
-  <article class="post">
-    <header class="post-header">
-      <h1 class ="post-title">Creating a New Theme</h1>
-      <div class="post-meta">
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
-  <title>calendar</title>
-  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
-</svg>
-          Sep 28, 2014
-        </div>
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
-  <title>clock</title>
-  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
-</svg>
-          34 min read
-        </div>
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-              <a class="tag" href="https://jyg94.github.io/tags/hugo/">hugo</a>
-              <a class="tag" href="https://jyg94.github.io/tags/themes/">themes</a>
-        </div>
-      </div>
-    </header>
-    <div class="post-content">
-      <h2 id="introduction">Introduction</h2>
+<div class="mb-3">
+  <h1 class="top-h1" style="font-size: 2.75em">Creating a New Theme</h1>
+  <p class="mb-1">September 28, 2014</p>
+  <p>&mdash;</p>
+</div>
+<div class="content"><h2 id="introduction">Introduction</h2>
 <p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
 <p>We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</p>
 <p>In this tutorial, commands that you enter will start with the &ldquo;$&rdquo; prompt. The output will follow. Lines that start with &ldquo;#&rdquo; are comments that I&rsquo;ve added to explain a point. When I show updates to a file, the &ldquo;:wq&rdquo; on the last line means to save the file.</p>
@@ -873,12 +849,20 @@ $ vi themes/zafta/layouts/_default/single.html
 </code></pre><p>Note that we removed the date logic from the default template and put it in the post template. Generate the web site and verify the results. Posts have dates and the about page doesn&rsquo;t.</p>
 <h3 id="dont-repeat-yourself">Don&rsquo;t Repeat Yourself</h3>
 <p>DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you&rsquo;re figuring that out, accept that you&rsquo;ll be doing some refactoring. Hugo makes that easy and fast, so it&rsquo;s okay to delay splitting up a template.</p>
+</div>
+<div class="d-flex flex-row justify-content-around">
+  <h3 class="mb-1 mt-1 text-left mr-4">
+    
+    <i class="nav-menu-disabled fas fa-chevron-circle-left"></i>
+    
+  </h3>
+  <h3 class="mb-1 mt-1 text-left ml-4">
+    
+    <i class="nav-menu-disabled fas fa-chevron-circle-right"></i>
+    
+  </h3>
+</div>
 
-    </div>
-    <div class="post-footer">
-      
-    </div>
-  </article>
 
     </main>
   </body>

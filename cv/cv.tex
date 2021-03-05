@@ -1,0 +1,94 @@
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{xcolor}%定义了一些颜色
+\usepackage{colortbl,booktabs}%第二个包定义了几个*rule
+\usepackage{hyperref}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{Yonggang Jiang} % Your name
+\address{Tel: (+86) 181-7088-0522 $\diamond$ E-mail: \href{mailto:yonggangjiang@smail.nju.edu.cn}{yonggangjiang@smail.nju.edu.cn}}
+\address{163 Xianlin Avenue, Qixia District, Nanjing, Jiangsu, China 210023}
+
+% \address{Webpage: \url{ http://sunnyszy.me}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\vspace{-2pt}
+\begin{rSection}{Education}
+{\bf No.3 Middle School of Nanchang} \hfill{\em Sep. 2014 - Jul. 2017}\\
+{\bf Nanjing University} \hfill {\em Sep. 2017 - Jul. 2021(expected)} \\
+B.C. in Computer Science and Technology, Elite Program \\
+GPA: 94.4/100 {\em (Major)} ~ 92.4/100 {\em (Overall)}\\
+Ranking: 1/31 {\em (Major)} ~ 3/204 {\em (Overall)}\smallskip\\
+{\bf University of California, Berkeley} \hfill {\em Jan. 2020 - May. 2020} \\
+Berkeley International Study Program
+\smallskip\\
+GPA: 4.0/4.0
+\end{rSection}
+
+%\begin{rSection}{Publications}
+%$[1]$ X. Tong, {\bf Jiachen Sun}, Xiaohua Tian. ``{\bf FineLoc: A Fine-grained Self-calibrating Wireless Indoor Localization System}'' submitted to {\em Infocom}. 2018.\medskip\\
+%$[2]$ {\bf Jiachen Sun}$^\dagger$, Y. Zhang$^\dagger$, Y. Yao$^\dagger$. ``{\bf Replacing the Kariba Dam}'' {\em UMAP Journal of Undergraduate Mathematics and Its Applications}. 2017. $^\dagger$Co-primary Authors
+%\end{rSection}
+\begin{rSection}{Research Interests}
+I have broad interests in theoretical computer science, especially in sampling and distributed algorithms. Currently, I am focusing on classical distributed problems like Byzantine consensus. I am also considering problems related to sampling using spatial mixing property.
+\end{rSection}
+\begin{rSection}{Research Experience}
+
+{\large Research work in TCS group at {\bf Nanjing University} }
+
+\begin{rSubsection}{Boosting Distributed Las Vegas Algorithms}{\em Jul. 2019 - Oct. 2020}{(Advisor: \href{http://tcs.nju.edu.cn/yinyt/}{\bf Prof. Yitong Yin})}{}
+\item The Las Vegas algorithm has two  definitions:  bounded time with  checkable failure and random time that is always correct.  The difference in the two definitions is trivial in the computation model with a central controller but non-trivial in a distributed model. We used an algorithm to implement the reduction in the LOCAL model.
+\item Our algorithm can also be applied to the uniform sampling LLL (Lovasz Local Lemma) instance.  The expected run time is polynomial on log n when the instance has a constant, correct rate. Moreover, the expected run time of our algorithm is nearly exponentially convergent, i.e., highly concentrated in its expectation.
+\end{rSubsection}
+\begin{rSubsection}{Current work in Distributed Computing}{\em Aug. 2020 - Present}{ (Advisor: \href{https://chaodong.me/}{\bf Prof. Chaodong Zheng})}{}
+\item Byzantine consensus protocol with recourse competitive analysis.
+\item Contention resolution problem with jamming and without collision detection.
+\end{rSubsection}
+\begin{rSubsection}{Dynamic Sampling}{\em Jan. 2019 - Jun. 2019}{ (Advisor: \href{http://tcs.nju.edu.cn/yinyt/}{\bf Prof. Yitong Yin})}{}
+\item Based on previous work {\em Dynamic Sampling from Graphical Models}.
+\item Improve the condition for the fast convergence of the dynamic sampling hardcore model.
+\end{rSubsection}
+\end{rSection}
+\begin{rSection}{Teaching experiences}
+\textbf{Data Structures and Algorithms, Nanjing University, Fall 2019} \hfill{\em Sep. 2019 - Jan. 2020}\\
+\textbf{Data Structures and Algorithms, Nanjing University, \href{https://chaodong.me/teaching/dsalg/2020/course-homepage.html}{Fall 2020}} \hfill{\em Sep. 2020 - Present}\\
+\end{rSection}
+\begin{rSection}{Key Projects}
+
+\begin{rSubsection}{Predicting the Run Time of Sklearn Programs}{\em Jan. 2019 - Feb 2019}{
+{\large Group work at Hong Kong University of Science and Technology}}{}
+
+\item Predicted the run time of a certain function on some given parameters, based on given samples.
+\item Used k-nearest neighbor (KNN) method, yeilding a final result ranked third among all participants.
+\end{rSubsection}
+\begin{rSubsection}{Digital Circuit and System Final Project}{\em Jan. 2019}{Joint work with Yangbo Zhang and Xingliang Du}{ Project leader}
+\item Implemented a multi-cycle Mips instruction architecture CPU.
+\item Functions included typing into the shell and executing some simple operations (lighting, clearing the screen, calculating simple expressions, etc.)
+\end{rSubsection}
+\begin{rSubsection}{Introduction to Computer Systems (ICS) Project}{\em Sep. 2018 - Jan. 2019}{}{}
+\item Achieved a full-featured N86 simulator NEMU (NJU emulator) and ran the game "Legend of Swordsman".
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Honors \& Awards}
+National Elite Program Scholarship, Outstanding Prize (top 1)\hfill{\em 2019-2020}\\
+National Elite Program Scholarship, Outstanding Prize (top 1)\hfill{\em 2018-2019}\\
+National Elite Program Scholarship, First Prize (top 1)\hfill{\em 2017-2018}\\
+CCPC Regional Contest, Gold Medal: Guilin \hfill{\em 2018}\\
+ACM-ICPC Asia Regional Contest, Silver Medal: Jiaozuo \hfill{\em 2018}\\
+NOIP First Prize \hfill{\em 2015}\\
+\end{rSection}
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{2ex}} l }
+Computer Languages & C/C++, Java, SQL\\
+English & TOEFL({\em MyBest™}):
+104 (Reading 29, Listening 29, Speaking 23, Writing 23)\\
+GRE & 153 (Verbal 153, Quantitative 170, Writing 3.5)
+\end{tabular}
+\end{rSection}
+\end{document}
